@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Sarjanatani</string>
+    <string name="ob_header1">Mempermudah Petani Desa</string>
+    <string name="ob_header2">Mengingatkan Masa Panen</string>
+    <string name="ob_header3">Memberi Informasi dan Inspirasi</string>
+    <string name="ob_get_started">GET STARTED</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
+
+    <string name="ob_desc1">Kendalikan irigasi dan usir hama burung pada lahan anda melalui android dimanapun dan kapanpun.</string>
+
+    <string name="ob_desc2">Selalu tenang dan pantau terus kapan masa panen tiba dengan fitur Reminder yang akan mendampingi dari awal tanam hingga panen.</string>
+
+    <string name="ob_desc3">Hilangkan bingung dan kesulitan di dunia pertanian dengan membaca berita up-to-date untuk mengetahui jawabanya. </string>
+    <string name="title_activity_home">Sarjanatani</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_list">List</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="waktu_masa_">
+
+Waktu Masa Panen
+</string>
+    <string name="hari">
+Hari
+</string>
+    <string name="cari_trik_d">
+
+Cari Trik dan Tips...
+</string>
+    <string name="remote_sarj">
+
+Remote Sarjanatani
+</string>
+    <string name="papan_infor">
+
+Papan Informasi
+</string>
+    <string name="berita_sarj">
+
+Berita Sarjanatani
+</string>
+    <string name="search">Search</string>
+    <string name="pengusir_bu">
+
+Pengusir Burung
+</string>
+    <string name="irigasi">
+Irigasi
+</string>
+    <string name="rizka_salma">
+
+Rizka Salma
+</string>
+    <string name="petani_jagu">
+
+Petani Padi
+</string>
+    <string name="text_tips">Artikel dan Berita</string>
+    <string name="example_title">Kementan Dorong Regenerasi SDM di Bidang Pertanian</string>
+    <string name="example_artikel">Hal tersebut diungkapkan Kepala Biro Humas dan Informasi Publik Kementan,
+        Kuntoro Andri saat menjadi pembicara dalam seminar publik Ikatan Senat Mahasiswa Pertanian Indonesia di kampus Sekolah Tinggi Ilmu Pertanian Agrobisnis Perkebunan
+        Medan, Selasa . Statistik menyebutkan jumlah petani kita hanya tersisa 27 persen dari total angkatan kerja Indonesia,
+        maka sudah harus melakukan program regenerasi, ujar Kuntoro sesuai keterangan tertulis yang.
+        Kuntoro menerangkan, Kementan telah melakukan berbagai upaya agar regenerasi petani Indonesia tidak terhambat,
+    </string>
+    
+    <string-array name="title">
+        <item>Kementan Dorong Regenerasi SDM di Bidang Pertanian</item>
+        <item>Kementan Dorong Regenerasi SDM di Bidang Pertanian</item>
+        <item>Kementan Dorong Regenerasi SDM di Bidang Pertanian</item>
+        <item>Kementan Dorong Regenerasi SDM di Bidang Pertanian</item>
+        <item>Kementan Dorong Regenerasi SDM di Bidang Pertanian</item>
+    </string-array>
+
+    <string-array name="image_artikel">
+        <item>@drawable/sawah</item>
+        <item>@drawable/sawah</item>
+        <item>@drawable/sawah</item>
+        <item>@drawable/sawah</item>
+        <item>@drawable/sawah</item>
+
+    </string-array>
+
+    <string-array name="description">
+     <item>Hal tersebut diungkapkan Kepala Biro Humas dan Informasi Publik Kementan,
+        Kuntoro Andri saat menjadi pembicara dalam seminar publik Ikatan Senat Mahasiswa Pertanian Indonesia di kampus Sekolah Tinggi Ilmu Pertanian Agrobisnis Perkebunan
+        Medan, Selasa . Statistik menyebutkan jumlah petani kita hanya tersisa 27 persen dari total angkatan kerja Indonesia,
+        maka sudah harus melakukan program regenerasi, ujar Kuntoro sesuai keterangan tertulis yang.
+        Kuntoro menerangkan, Kementan telah melakukan berbagai upaya agar regenerasi petani Indonesia tidak terhambat,
+    </item>
+        <item>Hal tersebut diungkapkan Kepala Biro Humas dan Informasi Publik Kementan,
+        Kuntoro Andri saat menjadi pembicara dalam seminar publik Ikatan Senat Mahasiswa Pertanian Indonesia di kampus Sekolah Tinggi Ilmu Pertanian Agrobisnis Perkebunan
+        Medan, Selasa . Statistik menyebutkan jumlah petani kita hanya tersisa 27 persen dari total angkatan kerja Indonesia,
+        maka sudah harus melakukan program regenerasi, ujar Kuntoro sesuai keterangan tertulis yang.
+        Kuntoro menerangkan, Kementan telah melakukan berbagai upaya agar regenerasi petani Indonesia tidak terhambat,
+    </item>
+        <item>Hal tersebut diungkapkan Kepala Biro Humas dan Informasi Publik Kementan,
+        Kuntoro Andri saat menjadi pembicara dalam seminar publik Ikatan Senat Mahasiswa Pertanian Indonesia di kampus Sekolah Tinggi Ilmu Pertanian Agrobisnis Perkebunan
+        Medan, Selasa . Statistik menyebutkan jumlah petani kita hanya tersisa 27 persen dari total angkatan kerja Indonesia,
+        maka sudah harus melakukan program regenerasi, ujar Kuntoro sesuai keterangan tertulis yang.
+        Kuntoro menerangkan, Kementan telah melakukan berbagai upaya agar regenerasi petani Indonesia tidak terhambat,
+    </item>
+        <item>Hal tersebut diungkapkan Kepala Biro Humas dan Informasi Publik Kementan,
+        Kuntoro Andri saat menjadi pembicara dalam seminar publik Ikatan Senat Mahasiswa Pertanian Indonesia di kampus Sekolah Tinggi Ilmu Pertanian Agrobisnis Perkebunan
+        Medan, Selasa . Statistik menyebutkan jumlah petani kita hanya tersisa 27 persen dari total angkatan kerja Indonesia,
+        maka sudah harus melakukan program regenerasi, ujar Kuntoro sesuai keterangan tertulis yang.
+        Kuntoro menerangkan, Kementan telah melakukan berbagai upaya agar regenerasi petani Indonesia tidak terhambat,
+    </item>
+        <item>Hal tersebut diungkapkan Kepala Biro Humas dan Informasi Publik Kementan,
+        Kuntoro Andri saat menjadi pembicara dalam seminar publik Ikatan Senat Mahasiswa Pertanian Indonesia di kampus Sekolah Tinggi Ilmu Pertanian Agrobisnis Perkebunan
+        Medan, Selasa . Statistik menyebutkan jumlah petani kita hanya tersisa 27 persen dari total angkatan kerja Indonesia,
+        maka sudah harus melakukan program regenerasi, ujar Kuntoro sesuai keterangan tertulis yang.
+        Kuntoro menerangkan, Kementan telah melakukan berbagai upaya agar regenerasi petani Indonesia tidak terhambat,
+    </item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:id="@+id/container"
+    android:background="@color/putih">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<TextView-->
+            <!--android:id="@+id/waktu_masa_"-->
+            <!--android:layout_width="143dp"-->
+            <!--android:layout_height="22dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="@string/waktu_masa_"-->
+            <!--android:textAppearance="@style/waktu_masa_"-->
+            <!--android:gravity="top"-->
+            <!--/>-->
+            <!--<View-->
+            <!--android:id="@+id/rectangle_3"-->
+            <!--android:layout_below="@+id/waktu_masa_"-->
+            <!--android:layout_width="38.48dp"-->
+            <!--android:layout_height="38.48dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginTop="116dp"-->
+            <!--android:background="@drawable/rectangle_3"-->
+            <!--/>-->
+            <!--<View-->
+            <!--android:id="@+id/rectangle_4"-->
+            <!--android:layout_below="@+id/waktu_masa_"-->
+            <!--android:layout_width="38.48dp"-->
+            <!--android:layout_height="38.48dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginLeft="128dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginTop="116dp"-->
+            <!--android:background="@drawable/rectangle_3"-->
+            <!--/>-->
+            <!--<TextView-->
+            <!--android:id="@+id/bulan"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="17.41dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginLeft="63.64dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginTop="126.08dp"-->
+            <!--android:text="Bulan"-->
+            <!--android:textAppearance="@style/hari"-->
+            <!--android:gravity="top"-->
+            <!--/>-->
+            <!--<TextView-->
+            <!--android:id="@+id/hari"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="17.41dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginLeft="175.64dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginTop="126.08dp"-->
+            <!--android:text="@string/hari"-->
+            <!--android:textAppearance="@style/hari"-->
+            <!--android:gravity="top"-->
+            <!--/>v-->
+            <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="178dp"-->
+            <!--&gt;-->
+
+            <!--<Button-->
+            <!--android:id="@+id/search_bar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="42dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:hint="@string/cari_trik_d"-->
+            <!--android:textAppearance="@style/cari_trik_d"-->
+            <!--android:padding="10dp"-->
+            <!--android:background="@drawable/rectangle_search"-->
+
+            <!--/>-->
+            <!--</android.support.design.widget.TextInputLayout>-->
+            <TextView
+                android:id="@+id/remote_sarj"
+                android:layout_width="146dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="50dp"
+                android:gravity="top"
+                android:text="@string/remote_sarj"
+                android:textAppearance="@style/remote_sarj" />
+
+            <LinearLayout
+                android:id="@+id/rectangle_6"
+                android:layout_width="328dp"
+                android:layout_height="83dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="233dp"
+                android:background="@drawable/rectangle_remote"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/pengusir_bu"
+                    android:layout_width="215dp"
+                    android:layout_height="19dp"
+                    android:gravity="center"
+                    android:text="@string/irigasi"
+                    android:textAppearance="@style/pengusir_bu" />
+
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:paddingRight="50dp"
+                    android:switchTextAppearance="@style/TextAppearance.AppCompat" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rectangle_7"
+                android:layout_width="328dp"
+                android:layout_height="83dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="103dp"
+                android:background="@drawable/rectangle_remote"
+                android:gravity="left|center">
+
+                <TextView
+                    android:id="@+id/irigasi"
+                    android:layout_width="215dp"
+                    android:layout_height="19dp"
+
+                    android:gravity="center"
+                    android:text="@string/pengusir_bu"
+                    android:textAppearance="@style/pengusir_bu" />
+
+                <Button
+                    android:id="@+id/motoron"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#ff6961"
+                    android:text="Usir"
+                    android:textAllCaps="false"
+                    android:textColor="@color/putih" />
+
+                <!--<Switch-->
+                <!--android:id="@+id/switch2"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:paddingRight="20dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:switchTextAppearance="@style/TextAppearance.AppCompat" />-->
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/papan_infor"
+                android:layout_width="121dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="350dp"
+                android:gravity="top"
+                android:text="@string/papan_infor"
+                android:textAppearance="@style/papan_infor" />
+
+            <RelativeLayout
+                android:id="@+id/group_2"
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="416dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/rectangle_remote"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/suhu" />
+
+                <TextView
+                    android:id="@+id/perkiraan_h"
+                    android:layout_width="126dp"
+                    android:layout_height="19dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="30dp"
+
+                    android:text="Kelembaban tanah"
+                    android:textAppearance="@style/perkiraan_h" />
+
+                <TextView
+                    android:id="@+id/kelembaban"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="60dp"
+                    android:gravity="center_vertical"
+                    android:ems="10"
+                    android:hint="0 adc"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+                <Button
+                    android:id="@+id/refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kelembaban"
+                    android:layout_centerHorizontal="true"
+                    android:text="REFRESH"
+                    android:backgroundTint="#ff6961"
+                    android:visibility="visible"/>
+
+            </RelativeLayout>
+            <!--<TextView-->
+            <!--android:id="@+id/berita_sarj"-->
+            <!--android:layout_width="133dp"-->
+            <!--android:layout_height="22dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginTop="695dp"-->
+            <!--android:text="@string/berita_sarj"-->
+            <!--android:textAppearance="@style/berita_sarj"-->
+            <!--android:gravity="top"-->
+            <!--/>-->
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</FrameLayout>

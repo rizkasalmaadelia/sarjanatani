@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoardingActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewPagerCountDots" />
+
+    <LinearLayout
+        android:id="@+id/viewPagerCountDots"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pager_height"
+        android:layout_above="@+id/ll_footer"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentLeft="false"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/ll_footer"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btn_get_started"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/linear_gradient_drawable"
+            android:text="@string/masuk"
+            android:textAllCaps="false"
+            android:textColor="@color/putih"
+            android:textSize="@dimen/button_text"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            />
+        <Button
+            android:id="@+id/btn_get_started2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/linear_gradient_drawable"
+            android:text="@string/daftar"
+            android:textAllCaps="false"
+            android:textColor="@color/putih"
+            android:textSize="@dimen/button_text"
+            android:layout_marginBottom="10dp"
+            android:visibility="visible"
+            android:layout_alignParentRight="true"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

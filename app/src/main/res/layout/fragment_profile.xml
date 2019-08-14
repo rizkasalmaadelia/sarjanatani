@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/ellipse"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/profil"
+        />
+    <TextView
+        android:id="@+id/textViewname"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="224dp"
+        android:text="@string/rizka_salma"
+        android:textAppearance="@style/rizka_salma"
+        android:gravity="top"></TextView>
+    <TextView
+        android:id="@+id/petani_jagu"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="266dp"
+        android:text="@string/petani_jagu"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@style/petani_jagu"
+        android:gravity="top"
+        />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Logout" />
+
+
+</FrameLayout>

@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarItemBackground">@color/kuningmuda</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@color/abu</item>
+        <item name="colorControlHighlight">@color/abu</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+    <item name="android:textColor">@color/hitam</item>
+    <item name="android:lines">@color/hijau1</item>
+
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+    <style name="waktu_masa_">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #36455A
+        </item>
+
+    </style>
+    <style name="hari">
+
+        <item name="android:textSize">
+            12.83sp
+        </item>
+
+        <item name="android:textColor">
+            #808A96
+        </item>
+
+    </style>
+    <style name="cari_trik_d">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #A6A9B1
+        </item>
+
+    </style>
+    <style name="remote_sarj">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #36455A
+        </item>
+
+    </style>
+    <style name="papan_infor">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #36455A
+        </item>
+
+    </style>
+    <style name="berita_sarj">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #36455A
+        </item>
+
+    </style>
+    <style name="pengusir_bu">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #36455A
+        </item>
+
+    </style>
+    <style name="rizka_salma">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #36455A
+        </item>
+
+    </style>
+    <style name="petani_jagu">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #36455A
+        </item>
+
+    </style>
+    <style name="perkiraan_h">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #36455A
+        </item>
+
+    </style>
+
+
+
+
+</resources>
